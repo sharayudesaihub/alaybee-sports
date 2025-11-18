@@ -1,0 +1,197 @@
+/* General */
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  background-color: #cad9f0;
+}
+
+/* Navbar */
+.navbar {
+  transition: background 0.3s ease-in-out;
+}
+
+.navbar.scrolled {
+  background: rgba(0, 0, 0, 0.9) !important;
+}
+
+.nav-link {
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #0d6efd !important; 
+}
+
+/* Hero Section */
+#h{
+margin-top: 30px;
+}
+#red{
+  color: red;
+  line-height: 50px;
+  margin-top: 20px;
+}
+header {
+  background: linear-gradient(to right, #0d6efd, #0a58ca);
+  animation: fadeInDown 1.2s ease-in-out;
+}
+
+#h {
+  animation: slideIn 1.5s ease-in-out;
+}
+
+@keyframes slideIn {
+  from { transform: translateY(-30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-50px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Section Headings */
+h2 {
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #0d6efd;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+/* About Section */
+#about img {
+  transition: transform 0.4s ease-in-out;
+}
+
+#about img:hover {
+  transform: scale(1.05);
+}
+
+/* Products */
+.card {
+  position: relative;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Gradient border using ::before */
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 2px; 
+  border-radius: 16px;
+  background: linear-gradient(135deg, #ff7eb3, #6a82fb, #00c6ff);
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+          mask-composite: exclude; 
+  pointer-events: none;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Buttons */
+.btn-primary {
+  transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+.btn-primary:hover {
+  background: #084298;
+  transform: scale(1.05);
+}
+
+/* Equal card height */
+#products .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#products .card {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 380px;
+}
+
+#products .card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Services Section */
+#services {
+  animation: fadeUp 1.5s ease-in-out;
+}
+
+.fixed-img {
+  width: 100%;
+  height: 400px;         
+  object-fit: cover;    
+  object-position: center; 
+  border-radius: 10px;   
+}
+
+.big-service-image:hover {
+  transform: scale(1.08);
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* Careers */
+#careers ul li {
+  font-size: 1.1rem;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+#careers ul li:hover {
+  background: #f8f9fa;
+  transform: translateX(5px);
+}
+
+/* Contact */
+#contact a {
+  transition: all 0.3s ease-in-out;
+}
+
+#contact a:hover {
+  background: #0d6efd;
+  color: white !important;
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  letter-spacing: 1px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alaybee Sports</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Alaybee Sports</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#careers">Careers</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="view_cart.php">View Cart 🛒</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Hero Section -->
+  <header class="bg-primary text-white text-center py-5">
+    <h1 id="h">Welcome to Alaybee Sports</h1>
+    <p id="h">Sports Sales Since 1988</p>
+  </header>
+  <div style="text-align: center;">
+ <img src="images/sports2.png" alt="Owner" class="img-fluid rounded mb-3 fixed-img" />
+
+
+  <section id="about" class="container py-5">
+  <h2>About Us</h2>
+  <p>
+    ALAYBEE SHOP is an exclusive online sports shop established by Alaybee Enterprises Pvt. Ltd. to provide the customers with the best quality sports equipment & services. Alaybee being into sports equipment manufacturing since 66 years and has a rich experience of 3 generations with continued success as a leader.
+  </p>
+
+  <div class="row">
+    <!-- Owner Image -->
+    <div class="col-md-4">
+      <img src="images/Owner.png" alt="Owner" class="img-fluid rounded mb-3" />
+    </div>
+
+    <!-- Right Column Text -->
+    <div class="col-md-8">
+      <p id="name"><b>Mohammad A. Baker</b></p>
+      <p>
+        Alaybee has been awarded No. 1 since 2004-05 for Highest Exports of Athletics Equipment from India by SGEPC.
+        ALAYBEE SHOP is established to offer customers better products & services, by giving following benefits:
+        Complete range of Alaybee Sports Equipment online, so customer can select the best sports product that is most suitable for them by comparing their features and prices.
+        Product will be delivered directly from the manufacturer, which means always the latest production.
+        Customer can clear their queries on products or terms & conditions by directly communicating with the manufacturer i.e. clear communication.
+      </p>
+    </div>
+  </div>
+
+  <!-- Third Paragraph and Logo  -->
+  <div class="row align-items-start mt-3">
+    <div class="col-md-8">
+      <p id="red">
+        Authenticity of the product as it will be always direct from Alaybee factory. 
+        
+        Easy order management through history, wish-list etc.
+
+        Secure payment through reliable payment gateway.
+
+        Access to latest products more easily.
+
+        Fast, safe & secure shipping (all over India).
+        Better prices and much more……
+      </p>
+    </div>
+    <div class="col-md-4">
+      <img src="images/logo.jpg" alt="Logo" class="img-fluid rounded" />
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Products -->
+  <section id="products" class="container py-5">
+  <!-- Header -->
+  <div class="text-center mb-5">
+    <h2>Products</h2>
+    <p class="lead">Book your Sport Kits</p>
+  </div>
+
+  <!-- Categories -->
+  <div class="mb-5">
+    <h4 class="mb-3">SHOP BY CATEGORIES</h4>
+    <div class="row text-center">
+      <div class="col-4 col-md-2 mb-3">
+        <img src="images/footballleg.jpg" alt="Football" class="img-fluid" />
+        <p>Football</p>
+      </div>
+      <div class="col-4 col-md-2 mb-3">
+        <img src="images/squash.jpg" alt="Soccer" class="img-fluid" />
+        <p>Squash</p>
+      </div>
+      <div class="col-4 col-md-2 mb-3">
+        <img src="images/pingpong.jpg" alt="Pingpong" class="img-fluid" />
+        <p>Pingpong</p>
+      </div>
+      <div class="col-4 col-md-2 mb-3">
+        <img src="images/basketball.jpg" alt="Basketball" class="img-fluid" />
+        <p>Basketball</p>
+      </div>
+      <div class="col-4 col-md-2 mb-3">
+        <img src="images/tennis.jpg" alt="Tennis" class="img-fluid" />
+        <p>Tennis</p>
+      </div>
+      <div class="col-4 col-md-2 mb-3">
+        <img src="images/asics2.jpg" alt="Football" class="img-fluid" />
+        <p>Shoes</p>
+      </div>
+    </div>
+  </div>
+
+ <style>
+  .add-cart-btn {
+    width: 100%;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: 0.3s ease;
+  }
+
+  .add-cart-btn:hover {
+    transform: scale(1.05);
+  }
+</style>
+
+<!-- Top Selling Shoes -->
+<div class="mb-5">
+  <h4 class="mb-4">TOP SELLING SHOES TYPES</h4>
+  <div class="row">
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100">
+        <img src="images/asics7.jpg" class="card-img-top" alt="COSCO Shoes">
+        <div class="card-body text-center">
+          <h5 class="card-title">COSCO Sports Shoes</h5>
+          <p class="card-text">₹2000.00 <del>₹2500.00</del></p>
+          <a href="#" 
+   class="btn btn-primary addCart"
+   data-name="COSCO Sports Shoes"
+   data-price="2000"
+   data-img="images/asics7.jpg">
+   🛒 Add To Cart
+</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100">
+        <img src="images/asics8.jpg" class="card-img-top" alt="COSCO Shoes">
+        <div class="card-body text-center">
+          <h5 class="card-title">COSCO Sports Shoes</h5>
+          <p class="card-text">₹2000.00 <del>₹2500.00</del></p>
+          <a href="#" 
+   class="btn btn-primary addCart"
+   data-name="COSCO Sports Shoes"
+   data-price="2000"
+   data-img="images/asics8.jpg">
+   🛒 Add To Cart
+</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100">
+        <img src="images/asics4.jpg" class="card-img-top" alt="COSCO Shoes">
+        <div class="card-body text-center">
+          <h5 class="card-title">COSCO Sports Shoes</h5>
+          <p class="card-text">₹2500.00 <del>₹2900.00</del></p>
+          <a href="#" 
+   class="btn btn-primary addCart"
+   data-name="COSCO Sports Shoes"
+   data-price="2500"
+   data-img="images/asics4.jpg">
+   🛒 Add To Cart
+</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100">
+        <img src="images/asics9.jpg" class="card-img-top" alt="COSCO Shoes">
+        <div class="card-body text-center">
+          <h5 class="card-title">COSCO Sports Shoes</h5>
+          <p class="card-text">₹3000.00 <del>₹3500.00</del></p>
+          <a href="#" 
+   class="btn btn-primary addCart"
+   data-name="COSCO Sports Shoes"
+   data-price="3000"
+   data-img="images/asics9.jpg">
+   🛒 Add To Cart
+</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100">
+        <img src="images/asics6.jpg" class="card-img-top" alt="COSCO Shoes">
+        <div class="card-body text-center">
+          <h5 class="card-title">COSCO Sports Shoes</h5>
+          <p class="card-text">₹2300.00 <del>₹2700.00</del></p>
+          <a href="#" 
+   class="btn btn-primary addCart"
+   data-name="COSCO Sports Shoes"
+   data-price="2300"
+   data-img="images/asics6.jpg">
+   🛒 Add To Cart
+</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100">
+        <img src="images/asics.jpg" class="card-img-top" alt="COSCO Shoes">
+        <div class="card-body text-center">
+          <h5 class="card-title">COSCO Sports Shoes</h5>
+          <p class="card-text">₹2900.00 <del>₹3000.00</del></p>
+       <a href="#" 
+   class="btn btn-primary addCart"
+   data-name="COSCO Sports Shoes"
+   data-price="2900"
+   data-img="images/asics.jpg">
+   🛒 Add To Cart
+</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100">
+        <img src="images/asics11.jpg" class="card-img-top" alt="COSCO Shoes">
+        <div class="card-body text-center">
+          <h5 class="card-title">COSCO Sports Shoes</h5>
+          <p class="card-text">₹2000.00 <del>₹2500.00</del></p>
+          <a href="#" 
+   class="btn btn-primary addCart"
+   data-name="COSCO Sports Shoes"
+   data-price="2000"
+   data-img="images/asics11.jpg">
+   🛒 Add To Cart
+</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100">
+        <img src="images/asics12.jpg" class="card-img-top" alt="COSCO Shoes">
+        <div class="card-body text-center">
+          <h5 class="card-title">COSCO Sports Shoes</h5>
+          <p class="card-text">₹1000.00 <del>₹1500.00</del></p>
+         <a href="#" 
+   class="btn btn-primary addCart"
+   data-name="COSCO Sports Shoes"
+   data-price="1000"
+   data-img="images/asics12.jpg">
+   🛒 Add To Cart
+</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Basketball Section -->
+<div class="mb-5">
+  <h4 class="mb-4">Basketball</h4>
+  <div class="row">
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100">
+        <img src="images/basketball4.jpg" class="card-img-top" alt="COSCO Basketball">
+        <div class="card-body text-center">
+          <h5 class="card-title">COSCO Pro Basketball</h5>
+          <p class="card-text">₹1000.00 <del>₹1500.00</del></p>
+          <a href="#" 
+   class="btn btn-primary addCart"
+   data-name="COSCO Pro Basketball"
+   data-price="1000"
+   data-img="images/basketball4.jpg">
+   🛒 Add To Cart
+</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100">
+        <img src="images/basketball1.jpg" class="card-img-top" alt="Spalding Basketball">
+        <div class="card-body text-center">
+          <h5 class="card-title">Spalding Rubber Basketball</h5>
+          <p class="card-text">₹1200.00 <del>₹1600.00</del></p>
+          <a href="#" 
+   class="btn btn-primary addCart"
+   data-name="Spalding Rubber Basketball"
+   data-price="1200"
+   data-img="images/basketball1.jpg">
+   🛒 Add To Cart
+</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100">
+        <img src="images/basketball2.jpg" class="card-img-top" alt="Nivia Basketball">
+        <div class="card-body text-center">
+          <h5 class="card-title">Nivia Basketball</h5>
+          <p class="card-text">₹900.00 <del>₹1400.00</del></p>
+          <a href="#" 
+   class="btn btn-primary addCart"
+   data-name="Nivia Basketball"
+   data-price="900"
+   data-img="images/basketball2.jpg">
+   🛒 Add To Cart
+</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100">
+        <img src="images/basketball3.jpg" class="card-img-top" alt="Wilson Basketball">
+        <div class="card-body text-center">
+          <h5 class="card-title">Wilson Outdoor Basketball</h5>
+          <p class="card-text">₹1100.00 <del>₹1500.00</del></p>
+          <a href="#" 
+   class="btn btn-primary addCart"
+   data-name="Wilson Outdoor Basketball"
+   data-price="1100"
+   data-img="images/basketball3.jpg">
+   🛒 Add To Cart
+</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Tennis Section -->
+<div class="mb-5">
+  <h4 class="mb-4">Tennis</h4>
+  <div class="row">
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100">
+        <img src="images/tennis4.jpg" class="card-img-top" alt="Tennis Racket">
+        <div class="card-body text-center">
+          <h5 class="card-title">Yonex Tennis Racket</h5>
+          <p class="card-text">₹2000.00 <del>₹2500.00</del></p>
+          <a href="#" 
+   class="btn btn-primary addCart"
+   data-name="Yonex Tennis Racket"
+   data-price="2000"
+   data-img="images/tennis4.jpg">
+   🛒 Add To Cart
+</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100">
+        <img src="images/tennis1.jpg" class="card-img-top" alt="Tennis Balls">
+        <div class="card-body text-center">
+          <h5 class="card-title">Pack of Tennis Balls</h5>
+          <p class="card-text">₹400.00 <del>₹600.00</del></p>
+         <a href="#" 
+   class="btn btn-primary addCart"
+   data-name="Pack of Tennis Balls"
+   data-price="400"
+   data-img="images/tennis1.jpg">
+   🛒 Add To Cart
+</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100">
+        <img src="images/tennis2.jpg" class="card-img-top" alt="Tennis Kit Bag">
+        <div class="card-body text-center">
+          <h5 class="card-title">Tennis Kit Bag</h5>
+          <p class="card-text">₹1500.00 <del>₹2000.00</del></p>
+          <a href="#" 
+   class="btn btn-primary addCart"
+   data-name="Tennis Kit Bag"
+   data-price="1500"
+   data-img="images/tennis2.jpg">
+   🛒 Add To Cart
+</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100">
+        <img src="images/tennis3.jpg" class="card-img-top" alt="HEAD Tennis Racket">
+        <div class="card-body text-center">
+          <h5 class="card-title">HEAD Tennis Racket</h5>
+          <p class="card-text">₹2200.00 <del>₹2800.00</del></p>
+         <a href="#" 
+   class="btn btn-primary addCart"
+   data-name="HEAD Tennis Racket"
+   data-price="2200"
+   data-img="images/tennis3.jpg">
+   🛒 Add To Cart
+</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+  </div>
+</section>
+<section>
+  <img src="images/offer.jpg.png" 
+       class="img-fluid big-service-image rounded shadow d-block mx-auto" />
+</section>
+
+<section>
+  <img src="images/sale.jpg.png" 
+       class="img-fluid big-service-image rounded shadow d-block mx-auto" />
+</section>
+
+<section>
+  <img src="images/sale2.jpg.png" 
+       class="img-fluid big-service-image rounded shadow d-block mx-auto" />
+</section>
+
+<section id="sale3">
+  <img src="images/sale3.jpg.png" 
+       class="img-fluid big-service-image rounded shadow d-block mx-auto" />
+</section>
+
+
+
+<!-- Services Section -->
+<section id="services" class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-start">
+      
+       <div class="text-center">
+  <h2 class="fw-bold text-dark">SERVICE</h2>
+</div>
+      <div class="col-md-6 mb-4 mb-md-0 text-start">
+        
+        <h5 class="text-dark mb-4">Manufacturing, Printing & Embroidery</h5>
+
+        <ul class="list-unstyled">
+          <li class="mb-2">✅ High-Resolution, Great Quality</li>
+          <li class="mb-2">✅ Bulk Order Discounts Available</li>
+          <li class="mb-2">✅ Print, Heat Press & More</li>
+          <li class="mb-2">✅ Buy Now or Store Stock</li>
+          <li class="mb-2">✅ Made-to-Order</li>
+        </ul>
+
+        <p class="fw-bold mt-4">Includes:</p>
+        <ul class="list-unstyled">
+          <li class="mb-2">📦 4000 Member Company</li>
+          <li class="mb-2">📦 100,000 Units in Stock Quantity</li>
+          <li class="mb-2">⚡ 24-Hour Delivery Available</li>
+          <li class="mb-2">🎯 1-1 Printing Option & Consultation</li>
+        </ul>
+      </div>
+
+      <!-- Image -->
+    <div class="col-md-6 text-center" style="margin-top: 40px;">
+      <img src="images/tshirt.jpg" alt="Custom T-Shirt Service"
+       class="img-fluid big-service-image rounded shadow" id="lastimg" />
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Careers Section -->
+<section id="careers" class="container py-5">
+  <div class="text-center">
+  <h2 class="fw-bold mb-4">Careers</h2>
+</div>
+  <p class="text-center text-muted mb-5">
+    Let’s do things together! Are you up for it?<br>
+    Join Alaybee by sending your updated Curriculum Vitae at 
+    <a href="mailto:careers@alaybee.com" class="fw-semibold text-decoration-none">careers@alaybee.com</a>
+  </p>
+
+  <div class="row justify-content-center g-4">
+    
+    <!-- Account Executive -->
+    <div class="col-md-6">
+      <div class="card shadow-sm border-0 h-100">
+        <div class="row g-0 align-items-center">
+          <div class="col-md-3 text-center p-3">
+            <img src="images/human.png" alt="Account Executive" class="img-fluid rounded-circle" style="max-width:80px;">
+          </div>
+          <div class="col-md-9">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Account Executive</h5>
+              <p class="card-text mb-1">
+                <strong>Skill:</strong> Proficient in financial accounting, bookkeeping, GST/TDS compliance, and payroll management. 
+                Skilled in MS Excel and accounting software (Tally/ERP) with strong analytical and reporting abilities.
+              </p>
+              <p class="card-text"><strong>Exp:</strong> 4 to 6 years</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Web Developer -->
+    <div class="col-md-6">
+      <div class="card shadow-sm border-0 h-100">
+        <div class="row g-0 align-items-center">
+          <div class="col-md-3 text-center p-3">
+            <img src="images/human.png" alt="Web Developer" class="img-fluid rounded-circle" style="max-width:80px;">
+          </div>
+          <div class="col-md-9">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Web Developer</h5>
+              <p class="card-text mb-1">
+                <strong>Skill:</strong> Strong knowledge of HTML, CSS, JavaScript, Bootstrap, React, and backend frameworks. 
+                Experience in building responsive and scalable web applications.
+              </p>
+              <p class="card-text"><strong>Exp:</strong> 2 to 5 years</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HR Executive -->
+    <div class="col-md-6">
+      <div class="card shadow-sm border-0 h-100">
+        <div class="row g-0 align-items-center">
+          <div class="col-md-3 text-center p-3">
+            <img src="images/human.png" alt="HR Executive" class="img-fluid rounded-circle" style="max-width:80px;">
+          </div>
+          <div class="col-md-9">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">HR Executive</h5>
+              <p class="card-text mb-1">
+                <strong>Skill:</strong> Recruitment, employee engagement, payroll processing, HR policies, and compliance. 
+                Proficient in HRMS tools and communication.
+              </p>
+              <p class="card-text"><strong>Exp:</strong> 3 to 5 years</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Graphics Designer -->
+    <div class="col-md-6">
+      <div class="card shadow-sm border-0 h-100">
+        <div class="row g-0 align-items-center">
+          <div class="col-md-3 text-center p-3">
+            <img src="images/human.png" alt="Graphics Designer" class="img-fluid rounded-circle" style="max-width:80px;">
+          </div>
+          <div class="col-md-9">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Graphics Designer</h5>
+              <p class="card-text mb-1">
+                <strong>Skill:</strong> Expertise in Photoshop, Illustrator, Figma, and Canva. 
+                Ability to create branding, marketing materials, and UI/UX design.
+              </p>
+              <p class="card-text"><strong>Exp:</strong> 2 to 4 years</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="container py-5 text-center">
+  <h2 class="fw-bold mb-3">Contact Us</h2>
+  <p class="mb-2"><strong>Email:</strong> <a href="mailto:careers@alaybee.com" class="text-decoration-none">careers@alaybee.com</a></p>
+  <p class="text-muted">Follow us on social media</p>
+  <div>
+    <a href="#" class="btn btn-outline-dark btn-sm mx-1"><i class="bi bi-facebook"></i> Facebook</a>
+    <a href="#" class="btn btn-outline-dark btn-sm mx-1"><i class="bi bi-twitter"></i> Twitter</a>
+    <a href="#" class="btn btn-outline-dark btn-sm mx-1"><i class="bi bi-linkedin"></i> LinkedIn</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  <p class="mb-0">&copy; 2025 Alaybee Sports. All rights reserved.</p>
+</footer>
+
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<script src="script.js"></script>
+
